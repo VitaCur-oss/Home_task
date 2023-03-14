@@ -2,7 +2,6 @@
 
 number_N = int(input('Введите число N: '))
 two = 0
-
 for i in range(number_N):
     two = 2**(i+1)
     print(f'2 ** {i + 1} = {two}')
