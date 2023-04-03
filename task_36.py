@@ -37,5 +37,4 @@ def multi_table(x, y):
 def print_operation_table(operation, num_rows=6, num_columns=6):
     return operation(num_rows, num_columns)
 
-
 print_operation_table(multi_table, 6, 6)
